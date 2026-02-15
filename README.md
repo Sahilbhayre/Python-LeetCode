@@ -55,4 +55,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Sahilbhayre/Python-LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/Sahilbhayre/Python-LeetCode/tree/master/0010-regular-expression-matching) |
+## Database
+|  |
+| ------- |
+| [0595-big-countries](https://github.com/Sahilbhayre/Python-LeetCode/tree/master/0595-big-countries) |
 <!---LeetCode Topics End-->
