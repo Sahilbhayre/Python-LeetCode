@@ -3,9 +3,8 @@ import pandas as pd
 def article_views(views: pd.DataFrame) -> pd.DataFrame:
     # result = views[views['author_id'] == views['viewer_id']][['author_id']].drop_duplicates().sort_values('author_id').rename(columns={'author_id':'id'})
     # return result
-    mask = views.author_id.values == views.viewer_id.values
     return (
-        views.loc[mask, ['author_id']]
+        views.loc[views.author_id.eq(views.viewer_id), ['author_id']]
         .drop_duplicates()
         .sort_values('author_id')
         .rename(columns={'author_id': 'id'})
